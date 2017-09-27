@@ -1,0 +1,40 @@
+@startuml
+title Conan Local Cache
+
+folder "%userprofile%/.conan/data" {
+    folder "MyLib" {
+         folder "0.1.0" {
+
+            folder "package"{
+                folder "0F3090A8B435C1234785"{
+                    [conanmanifest1.txt] as cm1
+                    [conaninfo.txt] as cf1
+                    folder "lib"{
+                        [mylib.lib] as lib1
+                    }
+                    folder "include"{
+                        [myheader.h] as inc1
+                    }
+                }
+            }
+            folder "export"{
+                [conanmanifest.txt] as cm
+                [conanfile.txt] as cf
+            }
+            folder "source"{
+                folder "0F3090A8B435C1234478"{
+                    [cloned/downloaded/sources]
+                }
+            }
+            folder "build"{
+                folder "0F3090A8B435C1233257"{
+                    [messy tempoary build folder]
+                }
+            }
+        }
+    }
+}
+
+
+
+@enduml/

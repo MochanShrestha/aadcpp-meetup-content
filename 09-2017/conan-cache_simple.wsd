@@ -1,0 +1,32 @@
+@startuml
+title Conan Local Cache
+
+folder "%userprofile%/.conan/data" {
+    folder "MyLib" {
+         folder "0.1.0" {
+            folder "carsim" {
+                folder "stable" {
+                    folder "package"{
+                        folder "0F3090A8B435C1234785"{
+                            [conanmanifest1.txt] as cm1
+                            [conaninfo.txt] as cf1
+                            folder "lib"{
+                                [mylib.lib] as lib1
+                            }
+                            folder "include"{
+                                [myheader.h] as inc1
+                            }
+                        }
+                    }
+                    folder "export"{
+                        [conanmanifest.txt] as cm
+                        [conanfile.py] as cf
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@enduml/

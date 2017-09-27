@@ -1,0 +1,56 @@
+@startuml
+title Process with Visual Studio Generator
+
+cloud "conan install .. -s arch=x86 -s build_type=Release ...etc"{
+    note left of ConanClient
+    Runs with specific combo of settings .... 
+    arch=x86
+    build_type=Release
+    compiler=Visual Studio
+    compiler.runtime=MD
+    compiler.version=15
+    os=Windows
+    shared=False
+    end note
+}
+
+
+folder "%userprofile%/.conan/data" {
+    folder "MyLib" {
+        folder "0.1.0" {
+            folder "carsim" {
+                folder "stable" {
+                    folder "package"{
+                        folder "0F3090A8B435C1234785"{
+                            [conanmanifest1.txt] as cm1
+                            [conaninfo.txt] as cf1
+                            folder "lib"{
+                                [mylib.lib] as lib1
+                            }
+                            folder "include"{
+                                [myheader.h] as inc1
+                            }
+                        }
+                    }
+                    folder "export"{
+                        [conanmanifest.txt] as cm
+                        [conanfile.py] as cf
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+node MSBUILD{
+    [#include <myheader.h>] --> inc1
+    [linker] --> lib1
+
+}
+ConanClient --> 0F3090A8B435C1234785 : 1.  Looks up all the absolute paths
+
+[conanbuildinfo.props] <-- ConanClient : 2. Produces puts paths in file
+[conanbuildinfo.props] <-- MSBUILD : 3. Reads paths from file
+
+@enduml/
