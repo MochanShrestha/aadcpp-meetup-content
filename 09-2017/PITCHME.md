@@ -44,7 +44,7 @@ Copy sources then build yourself
 ---
 ### C++ Build Systems
 
-Easy to build once you learn the standard build systems
+Easy to build once you learn the build system(s)
 ![Toolkit](/09-2017/toolkit.jpeg)
 
 ---
@@ -53,36 +53,44 @@ Easy to build once you learn the standard build systems
 
 ---
 ### C++ Ecosystems Extended
-![](/09-2017/mma_disciplines.png)
+![](/09-2017/mma_disciplines.jpg)
 
 ---
 ### The Need for Package Management 
 
 * Bjarne Stroustrup says we need it
-  * (not a real reason)
-
-* Practical Goals
+  
+* Real Goals
   * Make it FAST and EASY to USE shared code
   * Minimize Need for Redundant Compilation
   
 ---
-### What a C++ Package Manager Needs to Do
+### General Requirements 
+* Cross Platform, IDE and toolset agnostic
 * Distribute shared code as precompiled binaries
-* Automatic compile on-demand if binary not available
+* Automatically compile if binary not available
 * Projects on same machine share binary cache
 * Work for both Enterprise and OSS
 * Work like other mature package managers
 
 --- 
 ### Fundamental C++ Challenge #1
-* Each OS + Compiler + Compiler Option = Unique Binary
-
+* OS + Arch + Compiler + Options = Unique Binary
+** Header-Only Libraries Much Easier **
 --- 
-### What a solution would look like
+### It's Been Solved!
 ![](/09-2017/conan-binary-table.png)
 
 --- 
-### How do we get there? 
+### Conan.io Provides
+* The logic for creating and storing multiple binaries
+* Cloud-hosted central public repository for OSS
+* Cloud-hosted private repositories for Enterprise
+* On-Premise server platform for Enterprise
+* Local client application for packaging and caching
+
+--- 
+### Wait, how to build so many the Binaries? 
 * OSS
 ![](/09-2017/travis-appveyor-github.png)
 
@@ -90,11 +98,16 @@ Easy to build once you learn the standard build systems
 	* VSTS, Jenkin, Bamboo, CircleCI, Github
 
 --- 
-### How do we start? 
-* It starts with Packaging
+### Lets Get Started !
+* Prerequisites
+	* Visual Studio 2017 15.3 with Python Support
+	* Github
 
-![](/09-2017/travis-appveyor-github.png)
+### Agenda
+* Write Some Code
+* Package The Code
+* Share The Code Locally
+* Publish the Code Online
+* Reuse the Code on Different Machine
 
-* Enterprise
-	* VSTS, Jenkin, Bamboo, CircleCI, Github
 
