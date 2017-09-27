@@ -37,7 +37,7 @@ It's "Special"
 ### C++ Status Quo
 
 Copy sources then build yourself
-![Draw Owl](draw_owl.png)
+![Draw Owl](/09-2017/draw_owl.png)
 
 ---
 ### C++ Build Systems
