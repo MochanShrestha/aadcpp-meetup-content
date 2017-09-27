@@ -1,12 +1,12 @@
 ## Topic : A Modern Build Pipeline with Conan.io
-
+*Sponsored By* Mechanical Simulation [Logo](assets/image/logo/carsim.jpg =30x30)
 ---
 ### Announcements 
 
-* Thanks to Mechanical Simulation!
-* Google announces abseil.io – Supplement to Standard Library
-	* Categories: 
-	`strings`, `numeric`, `memory`, `time`, `concurrency`, `memory`, `container`, `algorithm`
+* Thanks to Mechanical Simulation!![Logo](assets/image/logo/carsim.jpg =30x30)
+* Google announces abseil.io
+	* Provides Supplements to Standard Library
+	* Categories: `strings`, `numeric`, `memory`, `time`, `concurrency`, `memory`, `container`, `algorithm`
 	* Examples:  
 		* `absl::StrCat()`
 		* `absl::StrJoin()`
