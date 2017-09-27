@@ -1,9 +1,9 @@
 ## Topic : A Modern Build Pipeline with Conan.io
-*Sponsored By Mechanical Simulation*
+*Sponsored By Mechanical Simulation*  
+
 ![Carsim Logo](/assets/image/logo/carsim.jpg)
 ---
-### Announcements 
-![Carsim Logo](/assets/image/logo/carsim.jpg)
+### Announcements ![Carsim Logo](/assets/image/logo/carsim.jpg)
 
 * Thanks to Mechanical Simulation! 
 * Google announces abseil.io
