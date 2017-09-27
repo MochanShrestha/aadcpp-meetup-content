@@ -53,7 +53,7 @@ Easy to build once you learn the build system(s)
 
 ---
 ### C++ Ecosystems Extended
-![](/09-2017/mma_disciplines.jpg)
+![](/09-2017/mma_disciplines.png)
 
 ---
 ### The Need for Package Management 
