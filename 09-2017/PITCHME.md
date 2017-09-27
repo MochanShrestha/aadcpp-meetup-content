@@ -5,7 +5,8 @@
 
 * Thanks to Mechanical Simulation!
 * Google announces abseil.io – Supplement to Standard Library
-	* Categories: `strings`, `numeric`, `memory`, `time`, `concurrency`, `memory`, `container`, `algorithm`
+	* Categories: 
+	`strings`, `numeric`, `memory`, `time`, `concurrency`, `memory`, `container`, `algorithm`
 	* Examples:  
 		* `absl::StrCat()`
 		* `absl::StrJoin()`
@@ -20,7 +21,8 @@
 ---
 ### Questions
 * Any Local Projects or Announcements?
-	
+
+---
 ### Content
 
 
