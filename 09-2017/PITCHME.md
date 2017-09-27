@@ -1,9 +1,9 @@
 ## Topic : A Modern Build Pipeline with Conan.io
-*Sponsored By* Mechanical Simulation [Logo](assets/image/logo/carsim.jpg)
+*Sponsored By Mechanical Simulation*![Carsim Logo](assets/image/logo/carsim.jpg =30x30)
 ---
 ### Announcements 
 
-* Thanks to Mechanical Simulation!![Logo](assets/image/logo/carsim.jpg)
+* Thanks to Mechanical Simulation!![Carsim Logo](assets/image/logo/carsim.jpg)
 * Google announces abseil.io
 	* Provides Supplements to Standard Library
 	* Categories: `strings`, `numeric`, `memory`, `time`, `concurrency`, `memory`, `container`, `algorithm`
