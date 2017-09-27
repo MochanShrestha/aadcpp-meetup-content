@@ -102,7 +102,7 @@ Easy to build once you learn the build system(s)
 * Prerequisites
 	* Visual Studio 2017 15.3 with Python Support
 	* Github
-
+---
 ### Agenda
 * Write Some Code
 * Package The Code
