@@ -1,6 +1,6 @@
 ## Topic : A Modern Build Pipeline with Conan.io
 *Sponsored By Mechanical Simulation*  
-![Carsim Logo](/assets/image/logo/carsim.jpg)
+![Carsim Logo](/09-2017//assets/image/logo/carsim.jpg)
 ---
 ### Announcements
 * Thanks to Mechanical Simulation! 
@@ -31,7 +31,7 @@ Devops - It's all about sharing code
 ### C++ as a Native Language
 
 It's "Special"
-![Giant Swiss](giant_swiss.jpg)
+![Giant Swiss](/09-2017/giant_swiss.jpg)
 
 ---
 ### C++ Status Quo
@@ -43,15 +43,15 @@ Copy sources then build yourself
 ### C++ Build Systems
 
 Easy to build once you learn the standard build systems
-![Toolkit](toolkit.jpeg)
+![Toolkit](/09-2017/toolkit.jpeg)
 
 ---
 ### C++ Ecosystems
-![](boxer_vs_mma.png)
+![](/09-2017/boxer_vs_mma.png)
 
 ---
 ### C++ Ecosystems Extended
-![](mma_disciplines.png)
+![](/09-2017/mma_disciplines.png)
 
 ---
 ### The Need for Package Management 
@@ -77,12 +77,12 @@ Easy to build once you learn the standard build systems
 
 --- 
 ### What a solution would look like
-![](conan-binary-table.png)
+![](/09-2017/conan-binary-table.png)
 
 --- 
 ### How do we get there? 
 * OSS
-![](travis-appveyor-github.png)
+![](/09-2017/travis-appveyor-github.png)
 
 * Enterprise
 	* VSTS, Jenkin, Bamboo, CircleCI, Github
@@ -91,7 +91,7 @@ Easy to build once you learn the standard build systems
 ### How do we start? 
 * It starts with Packaging
 
-![](travis-appveyor-github.png)
+![](/09-2017/travis-appveyor-github.png)
 
 * Enterprise
 	* VSTS, Jenkin, Bamboo, CircleCI, Github
