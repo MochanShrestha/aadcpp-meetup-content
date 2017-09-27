@@ -13,8 +13,9 @@
 		* `absl::StrSplit()`
 ---
 ### OSS Lib of the Month
-* Actor Framework for C++ - http://actor-framework.org/
-	* Parallel Computing - Distributed Systems Approach
+* Actor Framework for C++
+	* http://actor-framework.org/
+	* Parallel Computing - Distributed Computing
 	* Most Notable Actor Frameworks - Erlang, Akka
 	* 28 Contributors - 57 Releases
 
@@ -31,6 +32,7 @@ Devops - It's all about sharing code
 ### C++ as a Native Language
 
 It's "Special"
+
 ![Giant Swiss](/09-2017/giant_swiss.jpg)
 
 ---
