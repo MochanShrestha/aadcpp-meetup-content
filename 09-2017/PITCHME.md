@@ -23,11 +23,76 @@
 * Any Local Projects or Announcements?
 
 ---
-### CONAN
-![]https://g.gravizo.com/source/svg?https%3A%2F%2Fgithub.com%2FAnnArborDetroit-CPP%2Faadcpp-meetup-content%2Fblob%2Fmaster%2F09-2017%2Fconan-cache_simple.wsd
+### CONAN for C++ Devops
 
+Devops - It's all about sharing code
 
+---
+### C++ as a Native Language
 
+It's "Special"
+![Giant Swiss](giant_swiss.jpg)
 
+---
+### C++ Status Quo
 
+Copy sources then build yourself
+![Draw Owl](draw_owl.png)
+
+---
+### C++ Build Systems
+
+Easy to build once you learn the standard build systems
+![Toolkit](toolkit.jpeg)
+
+---
+### C++ Ecosystems
+![](boxer_vs_mma.png)
+
+---
+### C++ Ecosystems Extended
+![](mma_disciplines.png)
+
+---
+### The Need for Package Management 
+
+* Bjarne Stroustrup says we need it
+  * (not a real reason)
+
+* Practical Goals
+  * Make it FAST and EASY to USE shared code
+  * Minimize Need for Redundant Compilation
+  
+---
+### What a C++ Package Manager Needs to Do
+* Distribute shared code as precompiled binaries
+* Automatic compile on-demand if binary not available
+* Projects on same machine share binary cache
+* Work for both Enterprise and OSS
+* Work like other mature package managers
+
+--- 
+### Fundamental C++ Challenge #1
+* Each OS + Compiler + Compiler Option = Unique Binary
+
+--- 
+### What a solution would look like
+![](conan-binary-table.png)
+
+--- 
+### How do we get there? 
+* OSS
+![](travis-appveyor-github.png)
+
+* Enterprise
+	* VSTS, Jenkin, Bamboo, CircleCI, Github
+
+--- 
+### How do we start? 
+* It starts with Packaging
+
+![](travis-appveyor-github.png)
+
+* Enterprise
+	* VSTS, Jenkin, Bamboo, CircleCI, Github
 
