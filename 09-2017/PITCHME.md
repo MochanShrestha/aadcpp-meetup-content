@@ -24,7 +24,7 @@
 
 ---
 ### CONAN
-![]https://g.gravizo.com/source/svg?<https://github.com/AnnArborDetroit-CPP/aadcpp-meetup-content/blob/master/09-2017/conan-cache_simple.wsd>
+![]https://g.gravizo.com/source/svg?https://github.com/AnnArborDetroit-CPP/aadcpp-meetup-content/blob/master/09-2017/conan-cache_simple.wsd
 
 
 
