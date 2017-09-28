@@ -90,11 +90,15 @@ Easy to build once you learn the build system(s)
 * Local client application for packaging and caching
 
 --- 
-### Wait, how to build so many Binaries? 
+### Wait, how to build all the Binaries? 
+
+* Can be done automatically by CI systems
+
+* Conan has CI Helpers for many CI systems
+
 * OSS Uses Travis + Appveyor + Github (and others)
 
-* Enterprise Uses ...
-Above + VSTS, Jenkin, Bamboo, CircleCI, Homegrown
+* Enterprise Uses Above + VSTS, Jenkin, Bamboo, CircleCI, Homegrown
 
 --- 
 ### Lets Get Started !
