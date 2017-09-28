@@ -1,27 +1,29 @@
 ## August Meetup
 ### Topic : C++ and GPU's
+---
 ### Announcements 
-	- **Thanks to Mechanical Simulation!**
-	- DevopsDays Conference - https://www.devopsdays.org 
-		- Wednesday, Sep 27, 2017 - Thursday, Sep 28, 2017
-	- Visual Studio C++ Support Continues to Improve
-	- August CPPCast - Jens Weller - Meeting C++
-	- Boost 1.65 Released - and 1.65.1 imminent
-	- Herb Sutter at ACCU2017 - Metaclasses
-
+*Thanks to Mechanical Simulation!
+- DevopsDays Conference - https://www.devopsdays.org 
+	- Wednesday, Sep 27, 2017 - Thursday, Sep 28, 2017
+- Visual Studio C++ Support Continues to Improve
+- August CPPCast - Jens Weller - Meeting C++
+- Boost 1.65 Released - and 1.65.1 imminent
+- Herb Sutter at ACCU2017 - Metaclasses
+---
 ## OSS Lib of the Month
-	- Robot Operating System - http://ros.org/
-	- Sponsored by Open Source Robotics Foundation.
-	- https://roscon.ros.org/2017/
-		- Vancouver CA
-		- September 21-22
-		- Late registration starts TOMORROW!
-
+- Robot Operating System - http://ros.org/
+- Sponsored by Open Source Robotics Foundation.
+- https://roscon.ros.org/2017/
+	- Vancouver CA
+	- September 21-22
+	- Late registration starts TOMORROW!
+---
 ## Questions
-	- Progress on Getting Unreal Engine Speaker?
-	- Interest in Blockchain ? C++ Libraries
-	- "Open Spaces" type discussion
-	
+- Progress on Getting Unreal Engine Speaker?
+- Interest in Blockchain ? C++ Libraries
+- "Open Spaces" type discussion
+
+---
 ## Content
 
 - Educational Webinar - Refactoring C++  
