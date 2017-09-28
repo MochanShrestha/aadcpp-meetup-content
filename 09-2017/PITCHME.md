@@ -91,10 +91,10 @@ Easy to build once you learn the build system(s)
 
 --- 
 ### Wait, how to build so many the Binaries? 
-# Travis, Appveyor, Github
+* Travis, Appveyor, Github
 ![](/09-2017/travis-appveyor-github.png)
 
-# Enterprise
+* Enterprise
 Above + VSTS, Jenkin, Bamboo, CircleCI, Homegrown
 
 --- 
