@@ -26,6 +26,9 @@
 ---
 ## Content
 
+- Merzhad Samadi - Parabricks
+[High Performance Computing Using GPUs](/08-2017/samadi_cuda.ppt)
+
 - Educational Webinar - Refactoring C++  
 https://blog.jetbrains.com/clion/2017/08/webinar-recording-refactoring-cpp-code/
 
