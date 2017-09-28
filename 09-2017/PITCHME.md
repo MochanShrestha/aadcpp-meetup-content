@@ -90,11 +90,10 @@ Easy to build once you learn the build system(s)
 * Local client application for packaging and caching
 
 --- 
-### Wait, how to build so many the Binaries? 
-* Travis, Appveyor, Github
-![](/09-2017/travis-appveyor-github.png)
+### Wait, how to build so many Binaries? 
+* OSS Uses Travis + Appveyor + Github (and others)
 
-* Enterprise
+* Enterprise Uses ...
 Above + VSTS, Jenkin, Bamboo, CircleCI, Homegrown
 
 --- 
