@@ -22,7 +22,7 @@
 ---
 ### Questions
 * Any Local Projects or Announcements?
-
+* New ideas for topics
 ---
 ### CONAN for C++ Devops
 
@@ -91,11 +91,11 @@ Easy to build once you learn the build system(s)
 
 --- 
 ### Wait, how to build so many the Binaries? 
-* OSS
+#Travis, Appveyor, Github
 ![](/09-2017/travis-appveyor-github.png)
 
-* Enterprise
-	* VSTS, Jenkin, Bamboo, CircleCI, Github
+#Enterprise
+Above + VSTS, Jenkin, Bamboo, CircleCI, Homegrown
 
 --- 
 ### Lets Get Started !
