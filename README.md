@@ -9,7 +9,8 @@ Cumulative content from the Ann Arbor / Detroit C++ Meetup
 * Put images in the same folder as PITCH.md
 
 # To preview your presentation
-* There's a way to preview locally if you want
+* There's a way to preview locally if you want: 
+    https://github.com/gitpitch/gitpitch/wiki
 * Otherwise, you can just push and go to the URL below:
 
 https://gitpitch.com/AnnArborDetroit-CPP/aadcpp-meetup-content/master?p=09-2017
