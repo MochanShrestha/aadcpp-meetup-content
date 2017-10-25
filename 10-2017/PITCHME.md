@@ -1,6 +1,6 @@
 ## Topic : CppCon Trip Report
 *Sponsored By Mechanical Simulation*  
-![Carsim Logo](../assets/image/logo/carsim.jpg)
+![Carsim Logo](https://raw.githubusercontent.com/AnnArborDetroit-CPP/aadcpp-meetup-content/master/assets/image/logo/carsim.jpg)
 ---
 ### Announcements
 * Thanks to Mechanical Simulation! 
