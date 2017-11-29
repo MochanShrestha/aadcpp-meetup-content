@@ -40,14 +40,14 @@
 * We will know if the data that the hash pointer points to has changed or not
 * **Blockchain**: Replace pointers in a linked list with hash pointers
 * When a new node is added, the previous node cannot be tampered without detection
-* ![BlockChain](blockchain.png)
+* ![BlockChain](https://raw.githubusercontent.com/MochanShrestha/aadcpp-meetup-content/master/11-2017/cryptocurrency/blockchain.png)
 
 ---
 
 ### Merkle Tree
 
 * Binary tree with hash pointers
-* ![Merkle Tree](MerkleTree.png)
+* ![Merkle Tree](https://raw.githubusercontent.com/MochanShrestha/aadcpp-meetup-content/master/11-2017/cryptocurrency/MerkleTree.png)
 * No data can be changed without changing the hash in the root
 * Don't have to download the entire data set to check if a piece of data is valid
 * Bitcoin transactions are hashed and `hashMerkleRoot` is the hash of the hashes
@@ -166,7 +166,7 @@
   * Validate that transactions have no cryptographic errors
   * Do not let another miner dominate the network by using your own hash power
 * Expected time until block reward is proportional to
-  * `1 / current_fraction_of_global_hash_power`
+  * `1 / fraction_of_global_hash_power`
   * Currently is in 100s of years if you become a bitcoin node
 
 ---
@@ -193,10 +193,8 @@
   * 250 bytes / transaction average
   * 7 transactions / second
 * Mining rewards geometrically decay with number of blocks found
-  * Started with 50
-  * 50, 25, 12.5, 6.25, ...
-  * Currently at 12.5
-  * Total 21 million bitcoins
+  * Started with 50 and goes to 50, 25, 12.5, 6.25, ...
+  * Currently at 12.5 and thus total 21 million bitcoins
 
 ---
 
