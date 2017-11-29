@@ -1,6 +1,6 @@
-# Topic : Crypto currency: Data Structures and Algorithms
+## Topic : Crypto currency: Data Structures and Algorithms
 
-## Presenter: Mochan Shrestha
+### Presenter: Mochan Shrestha
 
 ---
 
@@ -14,8 +14,7 @@
 
 ### Bitcoin Address and Wallets
 
-* Public Key: Bitcoin address (psuedonym, username)
-  * Bitcoins are owned by a public key
+* Public Key: Bitcoin address (psuedonym, username). Bitcoins are owned by a public key
 * By signing a transaction with a secret key, you can transfer bitcoin to another address
   * Secret key controls the money. Don't lose it! Keep it safe!
 * Bitcoin Wallet: Secret key manager, signer etc
@@ -40,6 +39,11 @@
 * We will know if the data that the hash pointer points to has changed or not
 * **Blockchain**: Replace pointers in a linked list with hash pointers
 * When a new node is added, the previous node cannot be tampered without detection
+
+--- 
+
+### Blockchain (2)
+
 * ![BlockChain](https://raw.githubusercontent.com/MochanShrestha/aadcpp-meetup-content/master/11-2017/cryptocurrency/blockchain.png)
 
 ---
@@ -48,6 +52,11 @@
 
 * Binary tree with hash pointers
 * ![Merkle Tree](https://raw.githubusercontent.com/MochanShrestha/aadcpp-meetup-content/master/11-2017/cryptocurrency/MerkleTree.png)
+
+--- 
+
+### Merkle Tree (2)
+
 * No data can be changed without changing the hash in the root
 * Don't have to download the entire data set to check if a piece of data is valid
 * Bitcoin transactions are hashed and `hashMerkleRoot` is the hash of the hashes
