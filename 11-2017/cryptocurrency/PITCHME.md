@@ -80,6 +80,11 @@
 * Stack based language with cryptography supported instructions
 * No loops and executes linearly. Runtime complexity is the length of the script
 * Allows for smart contracts but most nodes whitelist scripts like pay to public key hash, pay to public key, pay to script hash
+
+---
+
+### Ethereum Scripts
+
 * Ethereum has extended this to a VM with a Turing complete script. Halting problem is avoided by just setting a cap on the execution time
 
 ---
@@ -91,6 +96,11 @@
   * Protocol takes a finite amount of time to agree on a same value
   * Agreed values must be produced by one of the nodes
 * Byzantine General's Problem - many situations which have proven impossibility results
+
+---
+
+### Distributed Consensus (2)
+
 * When a new block is created, it is spread through the P2P using a gossip protocol. Each node tells every other node they know about new information.
 * It executes a consensus protocol and the entire network decides on a new block to add to the blockchain
 * Bitcoin has no consensus guarantee but very low probability that consensus was not reached
@@ -102,6 +112,11 @@
 * In Bitcoin, when Alice wants to send Bob money, she broadcasts the transaction to every node she knows.
 * Each node collects all the transactions they have heard about into a block
 * If crypto signatures do not match, it is discarded. So, Alice cannot only try and send coins on addresses which she controls
+
+---
+
+### Bitcoin Network (2)
+
 * Alice's transaction is then put on a block by some node which gets to choose the next block in the blockchain
 * All other nodes accept this block by putting the hash of the block on the next block in the blockchain
 
@@ -132,6 +147,11 @@
 * The node chooses an address to send newly created bitcoins to (usually address controlled by the node)
 * This is the only way bitcoins are created
 * Very high incentive for the proposed block to reach consensus among peer nodes
+
+---
+
+### Block Reward (2)
+
 * Dishonesty can cause block rejection and missed chance to collect the reward
   * Node thoroughly checks all transactions for errors
   * Propose a block that other nodes would likely accept
@@ -154,6 +174,11 @@
   * `H( prev_block_hash | nonce | {txs} ) < threshold`
 * Only way to solve this puzzle is through brute force - keep trying nonces until the above condition is met
 * Chance of creating a new block depends on your hashing power - how many hashes can you perform per second
+
+---
+
+### Hash Puzzle (2)
+
 * More computing power means more chance of reward
 * `threshold` determines the difficulty which is adjustable to the global hashing power which is adjusted every two weeks
 * https://blockchain.info/stats for current statistics
@@ -174,7 +199,7 @@
   * Store the blockchain and send the blockchain to other nodes
   * Validate that transactions have no cryptographic errors
   * Do not let another miner dominate the network by using your own hash power
-* Expected time until block reward is proportional to
+* Expected time until block reward is proportional
   * `1 / fraction_of_global_hash_power`
   * Currently is in 100s of years if you become a bitcoin node
 
